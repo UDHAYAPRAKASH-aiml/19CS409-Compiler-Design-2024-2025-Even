@@ -24,7 +24,7 @@ To write a lex program to implement lexical analyzer to recognize a few patterns
 7.	Compile that file with C compiler and verify the output.
 
 ## PROGRAM
-
+```
 %{
 #include <stdio.h>
 #include <stdlib.h>
@@ -70,7 +70,7 @@ int main(int argc, char **argv) {
 
 int yywrap() { return 1; }
 
-
+```
 ## OUTPUT 
 ![image](https://github.com/user-attachments/assets/d4bd067f-615e-40c3-8c14-a5a2e5316f2c)
 
